@@ -4,13 +4,13 @@ module.exports = env => {
   var entry = {};
   if (env.development) {
     entry = {
-      "public/js/react-public.min": "./react-src/public.js",
-      "admin/js/react-admin.min": "./react-src/admin.js"
+      "public/js/react-public": "./react-src/public.js",
+      "admin/js/react-admin": "./react-src/admin.js"
     };
   } else {
     entry = {
-      "public/js/react-public": "./react-src/public.js",
-      "admin/js/react-admin": "./react-src/admin.js"
+      "public/js/react-public.min": "./react-src/public.js",
+      "admin/js/react-admin.min": "./react-src/admin.js"
     };
   }
   return {
