@@ -1,3 +1,23 @@
+![WordPress Plugin Support Reactjs Boilerplate](https://files.virgool.io/upload/users/13824/posts/mi3mdwboqnby/hn5uooi6g5gg.png)
+
+> `DevinVinson/WordPress-Plugin-Boilerplate`+ Reactjs
+
+## Quick Overview
+### Develop your plugin
+ 1. Set wordpress WP_DEBUG to true
+ 2. Run `npm start`
+ 3. Create components in `rwact-src/components
+ 4. Webpack will watch each changes and rebuild 
+### Build plugin
+ 1. Set wordpress WP_DEBUG to false
+ 2. Run `npm run build:production`
+
+> For the first time run `npm install` to install Node Modules
+
+
+---
+---
+---
 # WordPress Plugin Boilerplate
 
 A standardized, organized, object-oriented foundation for building high-quality WordPress Plugins.
